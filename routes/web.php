@@ -14,4 +14,4 @@ Route::get('/create',"StudentController@create");
 Route::get('/update/{id}',"StudentController@update");
 Route::get('/delete/{id}',"StudentController@destroy");
 
-//Route::get('mail',"StudentController@mail");
+Route::get('mail',"StudentController@mail");
